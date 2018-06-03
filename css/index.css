@@ -1,0 +1,132 @@
+
+/****Estrutura do header******/
+.topo{
+    background-color: #61666a;
+    height: 33px;
+}
+
+#fale{
+    margin-top: -12px;
+    margin-left: 9px;
+    font-size: 12px
+}
+
+#frete{
+    position: absolute;
+    margin-top: -12px;
+    margin-left: -319px;
+    font-size: 12px;
+}
+
+#perfil{
+    position: absolute;
+    margin-top: -12px;
+    margin-left: -261px;
+    font-size: 12px;
+}
+
+#carrinho{
+    position: absolute;
+    margin-top: -12px;
+    margin-left: -180px;
+    font-size: 12px;
+}
+
+span.badge.new {
+    border-radius: 31px;
+    margin-top: 18px;
+}
+
+i.right {
+    margin-left: 3px;
+}
+
+
+nav a{
+    color:white;
+}
+
+nav ul a {
+    color: black;
+}
+
+.white{
+    margin-top: -31px;
+}
+
+.input-field .prefix ~ input{
+
+    width: calc(90%); 
+}
+
+/**********************ICONES*********/
+
+#iconMobile{
+    color: black;
+} 
+
+.grayIcon{
+    color: #61666a21;
+}
+
+#iconEmail{
+    color: white;
+}
+input{
+    color:white;
+}
+
+/******** Fontes ********/
+
+h2{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+p{
+    color: gray;
+    font-size: 18px;
+}
+.footer{
+    color:white;
+}
+
+
+
+  /*****************Media Queries***************/
+
+  @media only screen and (max-width: 475px){
+    #mobile {
+        margin-top: -23px;
+    }
+    nav .nav-wrapper {
+        margin-top: 10px;
+    }
+    #search{
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width: 1024px){
+    #mobile {
+        margin-top: -34px;
+    }
+
+    nav{
+        height: 75px;
+    }
+    
+}
+
+@media only screen and (max-width: 600px){
+    .input-field .prefix ~ input {
+        width: calc(70%);
+    }
+}
+
+
+
+
+
